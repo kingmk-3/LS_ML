@@ -1,9 +1,26 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
-
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
 nc: 16
-names: ['boot', 'car', 'door', 'front_bumper', 'front_grill', 'front_windshield', 'headlamp', 'hood', 'license_plate', 'panel', 'rear_bumper', 'rear_windshield', 'sideview_mirror', 'taillamp', 'wheel', 'window']
+names:
+  [
+    "boot",
+    "car",
+    "door",
+    "front_bumper",
+    "front_grill",
+    "front_windshield",
+    "headlamp",
+    "hood",
+    "license_plate",
+    "panel",
+    "rear_bumper",
+    "rear_windshield",
+    "sideview_mirror",
+    "taillamp",
+    "wheel",
+    "window",
+  ]
 
 roboflow:
   workspace: ae-43fv6
